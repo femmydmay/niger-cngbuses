@@ -1,21 +1,10 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Head from "next/head";
+
 import Link from "next/link";
 import Header from "../header/header";
-import { FaBars } from "react-icons/fa";
-import { useState } from "react";
-import { BsPerson } from "react-icons/bs";
-import { AiFillStar } from "react-icons/ai";
 
-import { RxCaretDown } from "react-icons/rx";
-import { BiHelpCircle, BiSearch } from "react-icons/bi";
-import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
-import { AiFillTwitterCircle } from "react-icons/ai";
 
-// import Proplist from "./Proplist";
-
-// import Proplist from "./Proplist";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -23,7 +12,6 @@ export default function Home() {
     <>
       <main>
         <Header />
-       
 
         <section className="min-h-[60vh] w-11/12 items-center font-efg mb-20  bg-[#f7f9fc] bg-cover  text-justify -mt-10 mx-auto">
           <div className="">
@@ -47,9 +35,9 @@ export default function Home() {
               <div>
                 <p className={" text-justify text-sm mt-10 mb-10"}>
                   NIGER STATE MASS TRANSIT Bus System, Powered by SAMAY CLASSIC
-                  SYNERGY LIMITED (S.C.S.L)  is designed to cater to the needs
-                  of daily commuters, tourists, and occasional travelers. The
-                  buses run on a fixed schedule, ensuring timely departures and
+                  SYNERGY LIMITED (S.C.S.L) is designed to cater to the needs of
+                  daily commuters, tourists, and occasional travelers. The buses
+                  run on a fixed schedule, ensuring timely departures and
                   arrivals, which help passengers plan their journeys with
                   precision. With the use of Digital Bus pass cards and readers.
                   <br /> In the bustling landscape of urban commuting, the mass
